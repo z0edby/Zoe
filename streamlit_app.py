@@ -2,10 +2,9 @@ import streamlit as st
 name=st.text_input("ton nom")
 st.write("Hello"+name) 
 
-imput= "lapin"
+input= "lapin"
 list_possibilities=["rabbit","race","rhyme","rogue"]
+correct_answer="rabbit"
 traduis: lapin
-rabbit
-race
-rhyme
-rogue
+for i in range(len(list_possibilities))
+st.button(list_possibilities[i])
