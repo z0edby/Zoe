@@ -5,3 +5,7 @@ st.write("Hello"+name)
 imput= "lapin"
 list_possibilities=["rabbit","race","rhyme","rogue"]
 traduis: lapin
+rabbit
+race
+rhyme
+rogue
