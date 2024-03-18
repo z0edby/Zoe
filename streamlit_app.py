@@ -1,11 +1,4 @@
 import streamlit as st 
-name=st.text_input("ton nom")
-st.write("Hello"+name) 
-
-
-input= "lapin"
-list_possibilities=["rabbit","race","rhyme","rogue"]
-correct_answer="rabbit"
-st.right("traduis"+input)
-for i in range(len(list_possibilities)):
-st.button(list_possibilities[i])
+import pandas as pd
+voc = pd.nead_csv("https://docs.google.com/spreadsheets/d/e/2PACX-1vT-ZIygP_X0RCLp4r97Zub0bRwg1mtXtPABnlpFLFqsbnvb-qa_pEjrCFOGfd-xivTCc7QzWIQYL8iv/pub?output=csv")
+st.dataframe(voc)
