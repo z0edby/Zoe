@@ -1,8 +1,8 @@
-creation d'une variable:
+- creation d'une variable:
 st.session_state["my_var"]=1
-est-ce que la variable existe?
+- est-ce que la variable existe?
 if"my-var"in st.session_state
-supprimerla variable
+- supprimerla variable
 det st.session_state["my_var"]
 st.session_state["indices"]=indices
 si bravo:
